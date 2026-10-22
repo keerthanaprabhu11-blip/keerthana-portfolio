@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Keerthana Prabhu — design, AI and engineering portfolio.">
+  <title>Keerthana Prabhu — Design + Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="wordmark" href="#top">Keerthana Prabhu</a>
+  <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  <nav class="nav" id="nav">
+    <a href="#about">About me</a>
+    <div class="nav-projects"><a href="#design" class="projects-trigger">Projects ▾</a><div class="projects-menu">
+      <a href="#road-inspector">Road Inspector</a><a href="#courier">Courier Scooter Concept</a><a href="#charge-finder">Charge Finder</a><a href="#wardrobe-demo">Digital Wardrobe Organizer Demo</a><a href="#enercast">EnerCast</a><a href="#pavement-platform">Pavement Inspection Platform</a><a href="#workflow">DesignFlow AI Workflow Demo</a>
+    </div></div>
+    <a href="#experience">Leadership</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">✳ CSBS STUDENT · DESIGN + AI · ENGINEERING</p>
+      <h1>Design that<br>thinks with <span>AI.</span></h1>
+      <p class="hero-intro">I explore how AI, simple tools and thoughtful interfaces can make creative work smoother.</p>
+      <div class="social-links">
+        <a href="https://github.com/keerthanaprabhu11-blip" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="https://linkedin.com/in/keerthana-prabhu11" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a href="mailto:keerthana.prabhu11@gmail.com">Email ↗</a>
+      </div>
+      <div class="hero-bottom"><span>Design + engineering</span><a href="#design">Selected work ↓</a></div>
+    </div>
+    <div class="hero-symbol" aria-hidden="true">∿↗</div>
+  </section>
+
+  <section class="section about-section" id="about">
+    <div class="section-title"><div><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Curious by nature.<br>Builder by practice.</h2></div><span class="section-count">HELLO, I'M KEERTHANA</span></div>
+    <div class="about-grid">
+      <div class="about-copy"><p class="eyebrow">CSBS UNDERGRADUATE · SRM IST</p><h3>Hi, I'm Keerthana.</h3><p>I'm a Computer Science and Business Systems student interested in the space where AI, engineering, and thoughtful design meet. I enjoy exploring how technology can make complicated tasks simpler and creative workflows more useful.</p><p>Through projects like EnerCast, Road Inspector, Charge Finder, and DesignFlow, I'm learning to connect problem-solving with clear interfaces and practical tools. I'm especially curious about AI-assisted workflows, UI/UX, and tools that help people do their work with less friction.</p><div class="about-tags"><span>AI / ML</span><span>UI/UX</span><span>Python</span><span>JavaScript</span><span>Workflow thinking</span></div><a class="button" href="resume.pdf" download>Download my resume ↓</a></div>
+    </div>
+  </section>
+
+  <section class="section design-section" id="design">
+    <div class="section-title"><div><p class="eyebrow">01 / SELECTED WORK</p><h2>Design projects</h2></div><span class="section-count">01—04</span></div>
+
+    <article class="design-card lead-project" id="road-inspector">
+      <div class="project-copy">
+        <p class="eyebrow">01 / FIELD APP · LEAD CONCEPT</p>
+        <h3>Road Inspector</h3>
+        <p>A field app concept for a pavement inspection platform. Turn a road photo into a clear repair plan.</p>
+        <p class="muted">For road inspection teams. Capture damage, review depth and plan repairs across the city.</p>
+        <p class="tools"><b>Format:</b> UI/UX concept · workflow exploration</p>
+        <a class="button" href="#workflow">See workflow prototype ↗</a>
+        <small>Concept screens; computer-vision analysis is not implemented in this portfolio.</small>
+      </div>
+      <div class="goal-card"><span>THE GOAL</span><strong>Photo to repair estimate in under a minute.</strong><i>Illustrative concept</i></div>
+      <div class="screen-gallery">
+        <div class="mini-screen"><b>1. Capture</b><div class="screen-image road">▧</div><strong>Scan the road</strong><small>Keep the damage in frame.</small><button>Capture photo</button></div>
+        <div class="mini-screen"><b>2. Analysing</b><div class="screen-image scan">◌</div><strong>Analysing</strong><small>Finding damage and depth.</small><button>Analysing…</button></div>
+        <div class="mini-screen"><b>3. Damage found</b><div class="screen-image damage">▧</div><strong>Damage found</strong><small>Surface damage identified.</small><button class="red">View details</button></div>
+        <div class="mini-screen"><b>4. 3D depth map</b><div class="screen-image depth">▦</div><strong>Depth map</strong><small>Explore the road surface.</small><button>View map</button></div>
+        <div class="mini-screen"><b>5. Repair plan</b><div class="repair-list">✓ Clean surface<br>✓ Fill the damage<br>✓ Seal and finish</div><strong>Repair plan</strong><small>Review material needs.</small><button>View plan</button></div>
+        <div class="mini-screen"><b>6. City heatmap</b><div class="screen-image map-art">● · ●<br>· ● ·</div><strong>City heatmap</strong><small>Prioritise roads by damage.</small><button>View city map</button></div>
+      </div>
+    </article>
+
+    <article class="design-card split-card" id="courier">
+      <div class="project-copy">
+        <p class="eyebrow">02 / MOBILITY CONCEPT</p><h3>Courier</h3>
+        <p>An electric scooter concept for Chennai delivery riders. Built around the everyday delivery run.</p>
+        <p class="muted">For riders moving orders through busy city streets.</p>
+        <p class="muted">Concept features: swap-in battery, top storage box and a wide headlight ring.</p>
+        <p class="tools"><b>Focus:</b> Mobility concept · rider needs</p>
+        <a class="button" href="#contact">Discuss the concept ↗</a><small>Exploratory concept, not a production vehicle design.</small>
+      </div>
+      <div class="visual-panel scooter-panel"><div class="scooter-emoji">🛵</div><div class="feature-pills"><span>Swap-in battery</span><span>Top storage box</span><span>Wide headlight ring</span></div></div>
+    </article>
+
+    <article class="design-card split-card reverse" id="charge-finder">
+      <div class="project-copy">
+        <p class="eyebrow">03 / SCOOTER APP CONCEPT</p><h3>Charge Finder</h3>
+        <p>Less searching. More moving. A charging screen that puts the nearest open charger first.</p>
+        <p class="muted">For electric scooter riders looking for a place to charge.</p>
+        <p class="muted">Main screen: a local map, charger availability and a clear route action.</p>
+        <p class="tools"><b>Focus:</b> Information hierarchy · charging flow</p>
+        <a class="button" href="#contact">Discuss the concept ↗</a><small>Illustrative UI concept; map data is not live.</small>
+      </div>
+      <div class="visual-panel charger-panel"><div class="phone"><div class="phone-top">9:41 <span>●●●</span></div><h4>Find a charger</h4><div class="map-placeholder">↗<span>＋</span></div><p class="phone-label">Nearest open charger</p><div class="charger-row active">⚡ <span><b>Indira Nagar</b><small>Open now · 800 metres</small></span>›</div><div class="charger-row">⚡ <span><b>Adyar</b><small>Open now · 2 kilometres</small></span>›</div><div class="charger-row">⚡ <span><b>Besant Nagar</b><small>Closed · 3 kilometres</small></span>›</div><button>Get directions</button></div><small class="illustrative">Illustrative locations and availability</small></div>
+    </article>
+
+    <article class="design-card split-card">
+      <div class="project-copy">
+        <p class="eyebrow">04 / EVERYDAY APP CONCEPT</p><h3>Digital Wardrobe Organizer</h3>
+        <p>A little less “what should I wear?” Store clothes, build outfits and plan the week in one place.</p>
+        <p class="muted">For anyone who wants a clearer view of their wardrobe.</p>
+        <p class="muted">Main screens: clothing library, outfit builder and what-to-wear planner.</p>
+        <p class="tools"><b>Tools:</b> Python · Streamlit · SQLite (project version)</p>
+        <a class="button" href="#wardrobe-demo">Try the interactive demo ↗</a><small>Self-contained browser demo; no GitHub repository is claimed.</small>
+      </div>
+      <div class="visual-panel wardrobe-panel"><div class="wardrobe-phone"><div class="wardrobe-head"><span>My wardrobe</span><b>＋</b></div><h4>Wear it your way.</h4><p>Your clothes. New possibilities.</p><div class="wardrobe-tabs"><span>All clothes</span><span>Tops</span><span>Bottoms</span></div><div class="clothes"><div class="shirt">👕<small>Everyday blue shirt</small></div><div class="pants">👖<small>Cream trousers</small></div></div><button>Build an outfit</button><h5>Plan what to wear</h5><div class="plan-row">Monday <b>Blue + cream</b></div><div class="plan-row">Tuesday <b>Add outfit +</b></div></div></div>
+    </article>
+  </section>
+
+  <section class="section wardrobe-demo-section" id="wardrobe-demo">
+    <div class="section-title"><div><p class="eyebrow">INTERACTIVE CONCEPT DEMO</p><h2>Digital Wardrobe Organizer</h2></div><span class="section-count">TRY IT HERE</span></div>
+    <div class="wardrobe-demo-shell">
+      <div class="wardrobe-demo-copy"><p class="eyebrow">A SMALL FRONT-END DEMO</p><h3>Make getting dressed a little easier.</h3><p>Explore a sample clothing collection, filter by type, and generate a sample outfit. This is a browser-based demonstration of the concept, not a connected wardrobe database.</p><div class="demo-note">Demo data only · Your selections are not saved after refreshing.</div></div>
+      <div class="wardrobe-app">
+        <div class="wardrobe-app-top"><div><span class="app-kicker">MY SPACE</span><h3>My wardrobe <span>✳</span></h3></div><div class="avatar">KP</div></div>
+        <p class="wardrobe-greeting">A little inspiration for today.</p>
+        <div class="wardrobe-filter" role="group" aria-label="Filter clothing"><button class="filter-btn active" data-filter="all">All items</button><button class="filter-btn" data-filter="tops">Tops</button><button class="filter-btn" data-filter="bottoms">Bottoms</button><button class="filter-btn" data-filter="shoes">Shoes</button></div>
+        <div class="wardrobe-items" id="wardrobeItems">
+          <article class="wardrobe-item" data-category="tops"><div class="item-art art-blue">👕</div><b>Everyday tee</b><small>Top · Blue</small></article>
+          <article class="wardrobe-item" data-category="bottoms"><div class="item-art art-cream">👖</div><b>Relaxed trousers</b><small>Bottom · Cream</small></article>
+          <article class="wardrobe-item" data-category="tops"><div class="item-art art-pink">👚</div><b>Weekend top</b><small>Top · Pink</small></article>
+          <article class="wardrobe-item" data-category="shoes"><div class="item-art art-green">👟</div><b>Daily sneakers</b><small>Shoes · White</small></article>
+        </div>
+        <div class="outfit-result" id="outfitResult"><div><span class="app-kicker">TODAY'S OUTFIT</span><b>Ready when you are</b><small>Tap below to create a sample combination.</small></div><span class="outfit-spark">✦</span></div>
+        <button class="generate-outfit" id="generateOutfit">✨ Build a sample outfit</button>
+        <p class="wardrobe-feedback" id="wardrobeFeedback" aria-live="polite">Your demo is ready to explore.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="engineering" id="engineering">
+    <div class="section">
+      <div class="section-title"><div><p class="eyebrow">04 / BEHIND THE INTERFACE</p><h2>Engineering projects</h2></div><p class="engineering-intro">Explorations in road inspection and energy forecasting.</p></div>
+      <div class="engineering-grid">
+        <article class="engineering-card" id="pavement-platform"><span class="number">01</span><p class="eyebrow">COMPUTER VISION · CONCEPT</p><h3>Pavement Inspection Platform</h3><p>Explores identifying road damage in images and video, creating depth visualisations, and supporting repair planning.</p><small>Project concept · Details to be verified</small></article>
+        <article class="engineering-card" id="enercast"><span class="number">02</span><p class="eyebrow">ENERGY FORECASTING</p><h3>EnerCast</h3><p>Energy forecasting using ARIMA, Random Forest and LSTM models, with historical data and weather context to explore predicted consumption.</p><small>Python · Flask · React · TensorFlow</small><a href="https://github.com/keerthanaprabhu11-blip/EnerCast" target="_blank" rel="noreferrer">View GitHub repository ↗</a></article>
+        <article class="engineering-card"><span class="number">03</span><p class="eyebrow">WORKFLOW AUTOMATION · PROTOTYPE</p><h3>DesignFlow</h3><p>A small interactive prototype that turns a design brief into a structured checklist, helps document decisions and reduces repetitive planning work.</p><small>HTML · CSS · JavaScript · Rule-based demo; no external AI API connected</small><a href="designflow/index.html">Try the workflow prototype ↗</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section experience-section" id="workflow">
+    <div class="section-title"><div><p class="eyebrow">03 / BUILT FOR THIS ROLE</p><h2>DesignFlow — workflow assistant</h2></div><span class="section-count">INTERACTIVE DEMO</span></div>
+    <div class="design-card split-card">
+      <div class="project-copy">
+        <p class="eyebrow">PROBLEM → SIMPLE TOOL</p>
+        <h3>Less repetitive planning. More time to design.</h3>
+        <p>Designers often need to break a brief into tasks, record decisions and prepare handoff notes. DesignFlow demonstrates one lightweight way to organize that work in a single place.</p>
+        <p class="muted">The current demo uses local, rule-based templates to structure a brief. It is a functional front-end prototype, not a connected generative-AI service.</p>
+        <p class="tools"><b>Skills shown:</b> Workflow thinking · interface design · JavaScript · documentation</p>
+        <a class="button" href="designflow/index.html">Try DesignFlow ↗</a>
+      </div>
+      <div class="visual-panel wardrobe-panel"><div class="wardrobe-phone"><div class="wardrobe-head"><span>DesignFlow</span><b>✳</b></div><h4>From brief to next steps.</h4><p>Structure a design task in minutes.</p><div class="plan-row">01 <b>Understand the brief</b></div><div class="plan-row">02 <b>Plan the workflow</b></div><div class="plan-row">03 <b>Document decisions</b></div><div class="plan-row">04 <b>Prepare handoff</b></div><a class="button" href="designflow/index.html">Open demo ↗</a></div></div>
+    </div>
+  </section>
+
+  <section class="section experience-section" id="experience">
+    <div class="section-title"><div><p class="eyebrow">05 / LEADERSHIP</p><h2>Building with people, too.</h2></div></div>
+    <div class="experience-grid">
+      <article><span class="experience-number">01</span><h3>Vice President — TechPro Club</h3><p>Led planning and execution of three major technical events, coordinating student teams, volunteers and technical workshops.</p></article>
+      <article><span class="experience-number">02</span><h3>Student Coordinator — Texus Culturals</h3><p>Coordinated volunteers, event logistics and team activities for university cultural events.</p></article>
+      <article><span class="experience-number">03</span><h3>Smart India Hackathon</h3><p>Advanced to the third round as part of a multidisciplinary team, contributing to solution development, technical discussions and problem-solving.</p></article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-inner"><div><p class="eyebrow">LET'S CONNECT</p><h2>Good ideas deserve a conversation.</h2><p>Design, AI and better ways to solve real problems. Let's talk.</p></div><div class="contact-details"><a class="email" href="mailto:keerthana.prabhu11@gmail.com">keerthana.prabhu11@gmail.com ↗</a><div class="social-links"><a href="https://github.com/keerthanaprabhu11-blip" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://linkedin.com/in/keerthana-prabhu11" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:keerthana.prabhu11@gmail.com">Email ↗</a></div><a class="resume-link" href="resume.pdf" download>Download resume PDF ↓</a><small>Resume PDF included with this portfolio.</small></div></div>
+    <footer><span>Keerthana Prabhu</span><span>CSBS · Design + Engineering</span><span>© <span id="year"></span></span></footer>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
